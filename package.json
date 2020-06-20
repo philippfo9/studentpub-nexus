@@ -4,18 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nexus dev"
+    "dev": "nexus dev",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nexus": "^0.23.0",
+    "nexus": "0.24.2",
     "uuid": "^8.1.0"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.0",
     "@types/uuid": "^8.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
     "typescript": "^3.9.5"
   }
 }

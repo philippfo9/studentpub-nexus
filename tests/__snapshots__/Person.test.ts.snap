@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add a student 1`] = `
+Object {
+  "addStudent": Object {
+    "birthday": 915148800,
+    "citizenship": "AT",
+    "id": Any<String>,
+    "name": "Kyrven",
+    "school": "Alabama County School",
+  },
+}
+`;
