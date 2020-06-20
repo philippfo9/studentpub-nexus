@@ -4,8 +4,14 @@ import { workplaces } from '../data/workplace';
 const WorkplaceType = schema.objectType({
     name: 'Workplace',
     definition(t) {
-        t.id('id');
-        t.string('companyName');
+        t.field('id', {
+            type: 'ID',
+            nullable: false
+        });
+        t.field('companyName', {
+            type: 'String',
+            nullable: false
+        });
         t.string('country')
     },
 });
